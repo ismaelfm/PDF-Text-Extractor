@@ -1,0 +1,18 @@
+# PDF Text Extractor v0.1.0
+
+# Image Processing
+Pillow>=10.4.0        # PIL Image processing
+opencv-python>=4.10.0  # OpenCV for image preprocessing
+pytesseract>=0.3.13   # OCR engine interface
+
+# PDF Processing
+PyMuPDF>=1.23.8       # PDF processing (fitz)
+
+# Core Dependencies
+numpy>=1.26.4         # Numerical processing
+
+# CLI Interface
+rich>=13.9.4          # Rich terminal output
+
+# Optional GPU Acceleration
+cupy>=12.3.0 ; platform_system != "Windows"  # GPU acceleration (optional)
